@@ -50,7 +50,7 @@ resource "aws_instance" "my_east_ssh_server" {
   key_name = "${aws_key_pair.deployer.key_name}"
   vpc_security_group_ids = [aws_security_group.sg_my_ssh_server_east.id]
   tags = {
-    Name = "${local.project_name}-ssh-server-${count.index}"
+    Name = "${local.project_name}-ssh-server-${count.index}-${count.index}"
   }
   # depends_on = [
   #   aws_security_group.sg_my_ssh_server_east
