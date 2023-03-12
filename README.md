@@ -26,5 +26,5 @@ module "terraform-aws-ec2" {
 ```
 
 
-# TODO
+### TODO
 Add capability to run from MacOS menu bar
