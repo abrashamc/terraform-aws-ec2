@@ -24,3 +24,7 @@ module "terraform-aws-ec2" {
   ip_with_cidr = "${MY_IP_ADDRESS}/32"
 }
 ```
+
+
+# TODO
+Add capability to run from MacOS menu bar
